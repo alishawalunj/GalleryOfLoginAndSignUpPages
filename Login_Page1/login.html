@@ -7,14 +7,25 @@
     <link rel="stylesheet" href="login.css">
 </head>
 <body>
+    <video autoplay muted loop class="video-background">
+        <source src="pink_background.mp4" type="video/mp4">
+    </video>
     <div class="container">
         <form action="">
-            <label for="username">Username</label>
+            <p class="text">
+               WELCOME!! LET'S GET YOU LOGGED IN
+            </p>
+            <!-- <label for="username">Username</label> -->
             <input type="text" id="username" name="username" placeholder="UserName">
-            <label for="password">Password</label>
+            <!-- <label for="password">Password</label> -->
             <input type="password" id="password" name="password" placeholder="Password">
             <div>
                 <input type="submit" value="Login">
+            </div>
+            <div>
+                <p class="link">
+                    New User? <a href="#">Register</a>
+                </p>
             </div>
         </form>
     </div>
